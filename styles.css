@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+body {
+  background: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn, .stop {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn {
+  background: #2196f3;
+  color: white;
+}
+
+.btn:hover {
+  background: #1976d2;
+}
+
+.stop {
+  background: #e53935;
+  color: white;
+}
+
+.stop:hover {
+  background: #b71c1c;
+}
